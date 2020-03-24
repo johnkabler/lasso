@@ -9,6 +9,8 @@
 _tmp*
 tmp*
 tags
+ignore*.ipynb
+private.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
