@@ -3,7 +3,7 @@ output: web
 topnav_title: lasso
 site_title: lasso
 company_name: JP Kabler
-description: WIP: Helper library for deploying docker images to AWS, excuse to learn nbdev
+description: WIP Helper library for deploying docker images to AWS, excuse to learn nbdev
 # Set to false to disable KaTeX math
 use_math: true
 # Add Google analytics id if you have one and want to use it here
