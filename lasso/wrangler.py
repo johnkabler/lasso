@@ -10,6 +10,9 @@ import boto3
 class Wrangler:
     "Handler for deploying a docker image on one or more AWS EC2 Instances"
     def __init__(self):
+        # TODO: We won't be able to use mfa.  Need to
+        # have this take in access, secret, region
+        # once escalated account is obtained for gitlab runner.
         self._ssm_client = boto3.client('ssm')
 
     def execute_command(self, instance_id: str, command: str) -> Dict[str, Any]:
