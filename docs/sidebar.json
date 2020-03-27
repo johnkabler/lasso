@@ -1,7 +1,7 @@
 {
   "lasso": {
     "Overview": "/",
-    "module name here": "/core",
+    "core": "/core",
     "wrangler": "/wrangler"
   }
 }
